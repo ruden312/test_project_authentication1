@@ -1,5 +1,7 @@
 package ru.imba;
 
+
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,5 +30,9 @@ public class FirstTest {
 
         System.out.println(button1.isEnabled());
         System.out.println(button2.isEnabled());
+    }
+    @After
+    public void  tearDown(){
+        driver.close();
     }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<suite name="test_project_authentication">
+    <test verbose="2" name="net.ukr.tests">
+        <packages>
+            <package name="net.ukr.tests"/>
+        </packages>
+    </test>
+</suite>
